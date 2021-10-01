@@ -1,0 +1,59 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Solitaire()
+comment0.text=\n\ Constructs\ a\ solitaire\ game.\n\ Contains\ piles,\ foundations,\ stock\ and\ waste\n
+comment1.params=
+comment1.target=Card\ getStockCard()
+comment1.text=\n\ Returns\ the\ card\ at\ the\ top\ of\ the\ stock.\n\ \n\ @return\ \ the\ top\ stock\ card\ or\ null\ if\ empty\n
+comment10.params=
+comment10.target=void\ stockClicked()
+comment10.text=\n\ when\ stock\ is\ clicked,\ either\ deal\ three\ cards\ or\ reset.\n
+comment11.params=
+comment11.target=void\ wasteClicked()
+comment11.text=\n\ when\ waste\ is\ called\ iether\ reset\ or\ deal.\n
+comment12.params=index
+comment12.target=void\ foundationClicked(int)
+comment12.text=\n\ moves\ cards\ to\ foundations\n\ \n\ @precondition\ \ \ \ 0\ <\=\ index\ <\ 4\n\ @param\ \ \ index\ \ \ the\ index\ of\ the\ foundation\n
+comment13.params=card\ index
+comment13.target=boolean\ canAddToFoundation(Card,\ int)
+comment13.text=\n\ Determines\ if\ a\ card\ can\ be\ added\ to\ the\ given\ foundation.\n\ \n\ @precondition\ \ \ \ 0\ <\=\ index\ <\ 4\n\ @param\ \ \ card\ \ \ \ the\ card\ to\ be\ added\ to\ the\ foundation\n\ @param\ \ \ index\ \ \ the\ index\ of\ the\ foundation\n\ @return\ \ true\ if\ the\ card\ can\ be\ added\ successfully;\ otherwise,\n\ \ \ \ \ \ \ \ \ \ false\n
+comment14.params=index
+comment14.target=java.util.Stack\ removeFaceUpCards(int)
+comment14.text=\n\ Removes\ and\ returns\ the\ face\ up\ cards\ on\ a\ given\ pile.\n\ \n\ @precondition\ 0\ <\=\ index\ <\ 7\n\ @param\ \ \ index\ \ \ the\ index\ of\ the\ pile\n\ @return\ \ the\ stack\ of\ face\ up\ cards\ on\ the\ pile\n
+comment15.params=card\ index
+comment15.target=boolean\ canAddToPile(Card,\ int)
+comment15.text=\n\ Determines\ if\ a\ card\ can\ be\ added\ to\ the\ given\ pile\n\ \n\ @precondition\ \ \ \ 0\ <\=\ index\ <\ 7\n\ @param\ card\ the\ card\ to\ be\ added\ to\ the\ pile\n\ @param\ index\ the\ index\ of\ the\ pile\n
+comment16.params=index
+comment16.target=void\ pileClicked(int)
+comment16.text=\n\ Called\ when\ a\ pile\ is\ clicked\ to\ either\ add\ cards\ from\ the\ waste,\n\ another\ pile,\ or\ select\ and\ unselect\ a\ pile.\n\ \n\ @param\ \ \ index\ \ \ the\ index\ of\ the\ pile\ that\ is\ clicked\n
+comment17.params=cards\ index
+comment17.target=void\ addToPile(java.util.Stack,\ int)
+comment17.text=\n\ Adds\ the\ given\ cards\ on\ to\ the\ given\ pile.\n\ \n\ @param\ \ \ cards\ \ \ the\ cards\ to\ add\ to\ the\ pile\n\ @param\ \ \ index\ \ \ the\ index\ of\ the\ pile\n
+comment18.params=args
+comment18.target=void\ main(java.lang.String[])
+comment18.text=\n\ Plays\ a\ Solitaire\ game\!\n\ \n\ @param\ args\ arguments\ from\ the\ command\ line\n
+comment2.params=
+comment2.target=Card\ getWasteCard()
+comment2.text=\n\ Returns\ top\ card\ of\ waste\ pile.\n\ \n\ @return\ the\ top\ waste\ card\ or\ null\ if\ empty\n
+comment3.params=index
+comment3.target=Card\ getFoundationCard(int)
+comment3.text=\n\ Returns\ the\ card\ at\ the\ top\ of\ the\ foundation\ pile\ of\ index.\n\ @precondition\ \ \ \ 0\ <\=\ index\ <\ 4\n\ @param\ \ \ index\ \ \ the\ index\ of\ the\ foundation\n\ @return\ \ returns\ the\ card\ on\ top\ of\ the\ given\ foundation,\n\ \ \ \ \ \ \ \ \ \ or\ null\ if\ the\ foundation\ is\ empty\n
+comment4.params=index
+comment4.target=java.util.Stack\ getPile(int)
+comment4.text=\n\ Returns\ the\ pile\ at\ the\ given\ index.\n\ @precondition\ \ \ \ 0\ <\=\ index\ <\ 7\n\ @param\ \ \ index\ \ \ the\ index\ of\ the\ pile\n\ @return\ \ returns\ the\ stack\ of\ the\ given\ pile\n
+comment5.params=
+comment5.target=void\ createStock()
+comment5.text=\n\ Creates\ a\ new\ deck\ and\ shuffles\ it\ to\ create\ a\ stock\n
+comment6.params=
+comment6.target=void\ deal()
+comment6.text=\n\ Deals\ seven\ piles.\ \n
+comment7.params=
+comment7.target=void\ dealThreeCards()
+comment7.text=\n\ Deals\ three\ cards\ from\ the\ stock\ to\ waste\ pile.\n
+comment8.params=
+comment8.target=void\ dealOneCard()
+comment8.text=\n\ Deals\ one\ card\ from\ the\ stock\ to\ waste\ pile.\n
+comment9.params=
+comment9.target=void\ resetStock()
+comment9.text=\n\ Resets\ the\ stock\ if\ the\ waste\ is\ empty.\n
+numComments=19

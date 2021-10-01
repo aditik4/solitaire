@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=r\ s
+comment0.target=Card(int,\ java.lang.String)
+comment0.text=\n\ Constructs\ a\ card\ object\n\ \n\ @param\ r\ \ \ the\ rank\ of\ the\ card\n\ @param\ s\ \ \ the\ suit\ of\ the\ card\n
+comment1.params=
+comment1.target=int\ getRank()
+comment1.text=\n\ Returns\ the\ rank\ of\ the\ card.\n\ \n\ @return\ \ the\ rank\ of\ the\ card\n
+comment2.params=
+comment2.target=java.lang.String\ getSuit()
+comment2.text=\n\ Returns\ the\ suit\ of\ the\ card\n\ \n\ @return\ \ the\ suit\ of\ the\ card\n
+comment3.params=
+comment3.target=boolean\ isRed()
+comment3.text=\n\ Determines\ if\ the\ card\ is\ red.\n\ \n\ @return\ \ true\ if\ the\ card\ is\ red;\ otherwise,\n\ \ \ \ \ \ \ \ \ \ false\n
+comment4.params=
+comment4.target=boolean\ isFaceUp()
+comment4.text=\n\ Determines\ if\ the\ card\ is\ face\ up.\n\ \n\ @return\ \ true\ if\ the\ card\ is\ face\ up;\ otherwise,\n\ \ \ \ \ \ \ \ \ \ false\n
+comment5.params=
+comment5.target=void\ turnUp()
+comment5.text=\n\ Turns\ the\ card\ face\ up.\n
+comment6.params=
+comment6.target=void\ turnDown()
+comment6.text=\n\ Turns\ the\ card\ face\ down.\n
+comment7.params=
+comment7.target=java.lang.String\ getFileName()
+comment7.text=\n\ Gets\ the\ file\ name\ of\ the\ card\ to\ access\ via\ the\ class\ folder.\n\ \n\ @return\ \ the\ file\ name\ of\ the\ card\n
+numComments=8
